@@ -7,3 +7,9 @@ quick hatch up representation of the A* algorithm.
 
 If you have any changes, make a pull request and explain your changes.. That
 will be appreciated. 
+
+
+# To run this project:
+
+1. Clone / Download the project
+2. Open index.html in your web browser of choice (preferably chrome or something like that)
