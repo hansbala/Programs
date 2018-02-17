@@ -1,4 +1,4 @@
-# A* Algorithm implementation
+# A* Algorithm implementation in p5 (JavaScript)
 
 This is a p5 js project to visually analyse how the A* algorithm works.
 
