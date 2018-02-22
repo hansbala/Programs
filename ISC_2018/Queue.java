@@ -7,8 +7,10 @@ class Queue {
   int[] A; //Holds the queue in array fashion
   int front, rear;
 
-  Queue() {
+  Queue(int size) {
     // Constructor to initialize front and rear
+    // size is max_size. Greater than this value is considered overflow.
+    A = new int[size];
     front = rear = -1;
   }
 
@@ -16,7 +18,7 @@ class Queue {
   // Enqueue as in the verb enqueue
   void enqueue(int x) {
     // x is the value to be inserted
-    if (rear + 1 == max_size) {
+    if (rear + 1 == A.length) {
       System.out.println("QUEUE IS FULL");
       return;
     }
