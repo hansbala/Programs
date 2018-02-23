@@ -14,6 +14,7 @@ class Stack {
   void push(int x) {
     if (top + 1 == A.length) {
       System.out.print("OVERFLOW");
+      return;
     }
     A[++top] = x;
   }
@@ -23,7 +24,7 @@ class Stack {
       System.out.println("UNDERFLOW");
       return -9999;
     }
-    A[top--];
+    return A[top--];
   }
 
 }
